@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Search | Advanced</title>
-  <!--  Meta  -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--  Styles  -->
-	<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
-</head>
+	<head>
+		<title>Search | Advanced</title>
+		<!--  Meta  -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--  Styles  -->
+		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+	</head>
 
-<body>
-	<!-- Navigation -->
-	<div id="nav">
-		<ul class="nav-options">
-			<li><a href="index.html">Google Search</a></li>
-		</ul>
-	</div>
-	<!-- Content -->
-	<p id="advanced">Advanced Search</p><hr>
-	<form>
-		<table>
-			<tr>
-				<td class="col1 col1-header">Find pages with...</td>
-				<td></td>
-				<td>To do this in the search box</td>
-			</tr>
-			<tr>
-				<td class="col1">all these words:</td>
-				<td><input class="advanced" type="text"></td>
-				<td>Type the important words:  tricolor  rat  terrier</td>
-			</tr>
-			<tr>
-				<td class="col1">this exact word or phrase:</td>
-				<td><input class="advanced" type="text"></td>
-				<td>Put exact words in quotes:  "rat terrier"</td>
-			</tr>
-			<tr>
-				<td class="col1">any of these words:</td>
-				<td><input class="advanced" type="text"></td>
-				<td>Type OR between all the words you want: miniature OR standard</td>
-			</tr>
-			<tr>
-				<td class="col1">none of these words:</td>
-				<td><input class="advanced" type="text"></td>
-				<td>Put a minus sign just before words you don't want:<br>
-					-rodent, -"Jack Russell"</td>
-			</tr>
-		</table>
-		<input id="advanced" type="submit" value="Advanced Search">
-	</form>
-</body>
+	<body>
+		<!-- Navigation -->
+		<nav class="nav">
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="thumbnail">
+			<ul class="nav">
+				<li class="nav"><a class="nav" href="index.html">Google Search</a></li>
+			</ul>
+		</nav>
+
+		<!-- Content -->
+		<main>
+			<label id="advanced-text">Advanced Search</label><hr>
+			<form class="advanced">
+				<div class="row">
+					<label class="filter header">Find pages with...</label>
+					<div class="advanced"><span class="advanced"></span></div>
+					<label class="help header">To do this in the search box</label>
+				</div>
+
+				<div class="row">
+					<label class="filter">all these words:</label>
+					<div class="advanced"><input class="advanced" type="text"></div>
+					<label class="help text">Type the important words: tricolor rat terrier</label>
+				</div>
+
+				<div class="row">
+					<label class="filter">this exact word or phrase:</label>
+					<div class="advanced"><input class="advanced" type="text"></div>
+					<label class="help text">Put exact words in quotes: "rat terrier"</label>
+				</div>
+
+				<div class="row">
+					<label class="filter">any of these words:</label>
+					<div class="advanced"><input class="advanced" type="text"></div>
+					<label class="help text">Type OR between all the words you want: miniature OR standard</label>
+				</div>
+
+				<div class="row">
+					<label class="filter">none of these words:</label>
+					<div class="advanced"><input class="advanced" type="text"></div>
+					<label class="help text">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</label>
+				</div>
+
+				<div class="row">
+					<label class="filter"></label>
+					<div class="advanced">
+						<input class="adv-btn" type="submit" value="Advanced Search">
+					</div>
+				</div>
+				
+			</form>
+		</main>
+	</body>
 
 </html>

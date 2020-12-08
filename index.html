@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Search</title>
-  <!--  Meta  -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--  Styles  -->
-	<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
-</head>
+	<head>
+		<title>Search</title>
+		<!--  Meta  -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--  Styles  -->
+		<link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+	</head>
 
-<body>
-	<!-- Navigation -->
-	<div id="nav">
-		<ul class="nav-options">
-			<li><a href="images.html">Images</a></li>
-			<li><a href="advanced.html">Advanced Search</a></li>
-		</ul>
-	</div>
-	<!-- Content -->
-	<div>
-	  <img id="animated-img" src="images/animated.gif" alt="Animated Google Logo">
-		<form action="https://google.com/search">
-			<input class="search-bar" type="text" name="q"><br>
-			<input id="std-btn" type="submit" value="Google Search">
-			<input id="lucky-btn" type="submit" value="I'm Feeling Lucky">
-		</form>
-	</div>
-</body>
+	<body>
+		<!-- Navigation -->
+		<nav>
+			<ul class="nav">
+				<li class="nav">
+					<a class="nav" href="images.html">Images</a>
+				</li>
+				<li class="nav">
+					<a class="nav" href="advanced.html">Advanced Search</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Content -->
+		<main class="default">
+			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo">
+			<div id="logo-text" class="hidden">Images</div>
+			<form class="default" action="https://google.com/search">
+				<input class="searchbar" type="text" name="q"><br>
+				<input class="std-btn" type="submit" value="Google Search">
+				<input class="std-btn" type="submit" value="I'm Feeling Lucky">
+			</form>
+		</main>
+	</body>
 
 </html>
