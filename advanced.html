@@ -22,7 +22,7 @@
 		<!-- Content -->
 		<main>
 			<label id="advanced-text">Advanced Search</label><hr>
-			<form class="advanced">
+			<form class="advanced" action="https://google.com/search">
 				<div class="row">
 					<label class="filter header">Find pages with...</label>
 					<div class="advanced"><span class="advanced"></span></div>
@@ -31,26 +31,26 @@
 
 				<div class="row">
 					<label class="filter">all these words:</label>
-					<div class="advanced"><input class="advanced" type="text"></div>
-					<label class="help text">Type the important words: tricolor rat terrier</label>
+					<div class="advanced"><input class="advanced" type="text" name="as_q"></div>
+					<label class="help text">Type the important words: <span class="example-text">tricolor rat terrier</span></label>
 				</div>
 
 				<div class="row">
 					<label class="filter">this exact word or phrase:</label>
-					<div class="advanced"><input class="advanced" type="text"></div>
-					<label class="help text">Put exact words in quotes: "rat terrier"</label>
+					<div class="advanced"><input class="advanced" type="text" name="as_epq"></div>
+					<label class="help text">Put exact words in quotes: <span class="example-text">"rat terrier"</span></label>
 				</div>
 
 				<div class="row">
 					<label class="filter">any of these words:</label>
-					<div class="advanced"><input class="advanced" type="text"></div>
-					<label class="help text">Type OR between all the words you want: miniature OR standard</label>
+					<div class="advanced"><input class="advanced" type="text" name="as_oq"></div>
+					<label class="help text">Type <span class="example-text">OR</span> between all the words you want: <span class="example-text">miniature OR standard</span></label>
 				</div>
 
 				<div class="row">
 					<label class="filter">none of these words:</label>
-					<div class="advanced"><input class="advanced" type="text"></div>
-					<label class="help text">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</label>
+					<div class="advanced"><input class="advanced" type="text" name="as_eq"></div>
+					<label class="help text">Put a minus sign just before words you don't want: <span class="example-text"><br>-rodent, -"Jack Russell"</span></label>
 				</div>
 
 				<div class="row">
